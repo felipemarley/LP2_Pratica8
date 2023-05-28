@@ -1,3 +1,5 @@
+package br.ufrn.imd.modelo;
+
 public class Girafa extends Animal{
     private double tamanhoLingua;
 

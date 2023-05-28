@@ -1,10 +1,14 @@
+package br.ufrn.imd.dao;
+
+import br.ufrn.imd.modelo.*;
 import java.util.ArrayList;
 
-public class Zoologico{
+
+public class AnimalDAO{
 
     private ArrayList<Animal> jaulas;
 
-    public Zoologico(){
+    public AnimalDAO(){
         jaulas = new ArrayList<Animal>();
     }
 
@@ -33,7 +37,7 @@ public class Zoologico{
             if(a instanceof Tigre){
                 System.out.println("----------------------------------");
                 System.out.println("Nome: "+ a.getNome()+ " Idade: "+ a.calcularIdade(a)+ " Peso: "+ a.getPeso()
-                +"Tipo de Alimento: "+ a.getTipoAlimentacao()+ "Tipo de Tigre: "+ a.getTipoTigre());
+                +"Tipo de Alimento: "+ a.getTipoAlimentacao()+ "Tipo de Tigre: "+ (a.getTipoTigre()));
             }
         }
     }

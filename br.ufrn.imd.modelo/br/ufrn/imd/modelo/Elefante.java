@@ -1,3 +1,5 @@
+package br.ufrn.imd.modelo;
+
 public class Elefante extends Animal{
     private double tamanhoTromba;
 

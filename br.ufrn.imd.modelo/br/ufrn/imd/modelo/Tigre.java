@@ -1,3 +1,5 @@
+package br.ufrn.imd.modelo;
+
 public class Tigre extends Animal{
     private String tipoTigre;
 
